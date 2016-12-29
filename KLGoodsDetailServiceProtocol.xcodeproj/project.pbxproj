@@ -51,6 +51,7 @@
 		DF1F92081E14E0120099AB0C /* KLGoodsDetailServiceProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLGoodsDetailServiceProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1F920C1E14E0120099AB0C /* KLGoodsDetailServiceProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLGoodsDetailServiceProtocolUITests.m; sourceTree = "<group>"; };
 		DF1F920E1E14E0120099AB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1F921B1E14E0D70099AB0C /* KLGoodsDetailServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLGoodsDetailServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		DF1F91E61E14E0120099AB0C /* KLGoodsDetailServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				DF1F921A1E14E08F0099AB0C /* Classes */,
 				DF1F91EA1E14E0120099AB0C /* AppDelegate.h */,
 				DF1F91EB1E14E0120099AB0C /* AppDelegate.m */,
 				DF1F91ED1E14E0120099AB0C /* ViewController.h */,
@@ -138,6 +140,14 @@
 				DF1F920E1E14E0120099AB0C /* Info.plist */,
 			);
 			path = KLGoodsDetailServiceProtocolUITests;
+			sourceTree = "<group>";
+		};
+		DF1F921A1E14E08F0099AB0C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F921B1E14E0D70099AB0C /* KLGoodsDetailServiceProtocol.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
